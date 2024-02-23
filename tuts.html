@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <!-- this is example of internal css -->
+    <style>
+        p{
+            color:bisque;
+            background-color: black;
+        }
+    </style>
+    <!-- this is example of external css -->
+    <link rel="stylesheet" href="tuts.css">
+</head>
+<!-- there are 3 mathod to give colour.1=inline,2=internal,3=external  -->
+<!-- as per name inline method is used in the line its precedence is very high but advice to use less -->
+<!-- internal and external are used inside head tag whichever will down side have more precedence -->
+<!-- if we want to make precedence high then we can add !important -->
+<body>
+    <h1>
+        THIS IS CSS TUTORIAL.
+    </h1>
+    <!-- this is example of inline css -->
+    <p style="color: red;background-color: yellow;">you can learn about CSS & HTML here</p>
+    <p>you can learn about CSS & HTML here</p>
+</body>
+</html>

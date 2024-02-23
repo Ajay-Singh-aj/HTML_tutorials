@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file</title>
+</head>
+<body>
+    <div>
+        <h1>Traval form our trip</h1>
+        <!-- most impornt thing is we can visit MDN reference of input we got more fascinating idea -->
+        
+        <form action="form.php">
+            <!-- input tag is use to take input from user -->
+            <!-- type=text mean we want to input text -->
+            <!-- type=radio means we want to input only selection like mcq question on circular part -->
+            <input type="text" placeholder="Write Your Name"><br>
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionida">Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc">Section C
+            </label><br>
+            <label for="start">Start date:
+                <input type="date" id="start" name="trip-start" value="2018-07-22"min="2018-01-01" max="2018-12-31">
+            </label><br>
+            <label for="foodcanteen">Want Food From Canteen
+                <input type="checkbox" id="foodcanteen" name="canteen" class="red">
+            </label><br>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain Why You Love 
+            Travelling"></textarea><br>
+            <select name="vehicle u want travel from" id="car">
+                <option value="no vehicle">No Vehicle</option>
+                <option value="cycle">cycle</option>
+                <option value="motorcycle">motorcycle</option>
+                <option value="car">car</option>
+                <option value="bus">bus</option>
+            </select><br>
+    </div>
+</body>
+</html>
